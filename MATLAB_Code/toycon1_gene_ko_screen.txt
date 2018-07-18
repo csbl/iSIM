@@ -1,0 +1,10 @@
+gene_id gene_ko_atp rxn_id rxn_name lb ub rxn_formula
+HK 0 E1 glucose exchange -1 1000 glucose[c]<==>
+LDH 32 E2 lactate exchange 0 1000 lactate[c]-->
+ETC 2 E3 O2 exchange -1000 1000 O2[c]<==>
+AQP 2 E4 H20 exchange -1000 1000 H20[c]<==>
+CO2 2 E5 CO2 exchange -1000 1000 CO2[c]<==>
+PFK 0 R1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c]
+PDH 2 R2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c]
+ATPV 2 R3 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m]
+MYH2 0 R4 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c]

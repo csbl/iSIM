@@ -1,0 +1,11 @@
+  glucose exchange lactate exchange O2 exchange H20 exchange CO2 exchange glycolysis respiration ATP synthase ATP demand
+glucose -1 0 0 0 0 -1 0 0 0
+lactate 0 -1 0 0 0 2 -1 0 0
+O2 0 0 -1 0 0 0 -3 0 0
+H20 0 0 0 -1 0 2 4 1 -1
+CO2 0 0 0 0 -1 0 3 0 0
+ADP 0 0 0 0 0 -2 -1 -1 1
+Pi 0 0 0 0 0 -2 -1 -1 1
+ATP 0 0 0 0 0 2 1 1 -1
+H 0 0 0 0 0 0 -56 4 0
+H 0 0 0 0 0 0 56 -4 0

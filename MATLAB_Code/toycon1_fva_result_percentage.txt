@@ -1,0 +1,190 @@
+rxn_id fva_lb fva_ub rxn_name lb ub rxn_formula fva_pct fva_req fva_on
+E1 -1 0 glucose exchange -1 1000 glucose[c]<==> 0 false true
+E2 0 2 lactate exchange 0 1000 lactate[c]--> 0 false true
+E3 -6 0 O2 exchange -1000 1000 O2[c]<==> 0 false true
+E4 0 6 H20 exchange -1000 1000 H20[c]<==> 0 false true
+E5 0 6 CO2 exchange -1000 1000 CO2[c]<==> 0 false true
+R1 0 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 0 false true
+R2 0 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 0 false true
+R3 0 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 0 false true
+R4 0 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 0 false true
+E1 -1 -0.05 glucose exchange -1 1000 glucose[c]<==> 5 true true
+E2 0 2 lactate exchange 0 1000 lactate[c]--> 5 false true
+E3 -6 0 O2 exchange -1000 1000 O2[c]<==> 5 false true
+E4 0 6 H20 exchange -1000 1000 H20[c]<==> 5 false true
+E5 0 6 CO2 exchange -1000 1000 CO2[c]<==> 5 false true
+R1 0.05 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 5 true true
+R2 0 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 5 false true
+R3 0 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 5 false true
+R4 1.6 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 5 true true
+E1 -1 -0.1 glucose exchange -1 1000 glucose[c]<==> 10 true true
+E2 0 1.92 lactate exchange 0 1000 lactate[c]--> 10 false true
+E3 -6 -0.24 O2 exchange -1000 1000 O2[c]<==> 10 true true
+E4 0.24 6 H20 exchange -1000 1000 H20[c]<==> 10 true true
+E5 0.24 6 CO2 exchange -1000 1000 CO2[c]<==> 10 true true
+R1 0.1 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 10 true true
+R2 0.08 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 10 true true
+R3 1.12 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 10 true true
+R4 3.2 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 10 true true
+E1 -1 -0.15 glucose exchange -1 1000 glucose[c]<==> 15 true true
+E2 0 1.81333 lactate exchange 0 1000 lactate[c]--> 15 false true
+E3 -6 -0.56 O2 exchange -1000 1000 O2[c]<==> 15 true true
+E4 0.56 6 H20 exchange -1000 1000 H20[c]<==> 15 true true
+E5 0.56 6 CO2 exchange -1000 1000 CO2[c]<==> 15 true true
+R1 0.15 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 15 true true
+R2 0.186667 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 15 true true
+R3 2.61333 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 15 true true
+R4 4.8 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 15 true true
+E1 -1 -0.2 glucose exchange -1 1000 glucose[c]<==> 20 true true
+E2 0 1.70667 lactate exchange 0 1000 lactate[c]--> 20 false true
+E3 -6 -0.88 O2 exchange -1000 1000 O2[c]<==> 20 true true
+E4 0.88 6 H20 exchange -1000 1000 H20[c]<==> 20 true true
+E5 0.88 6 CO2 exchange -1000 1000 CO2[c]<==> 20 true true
+R1 0.2 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 20 true true
+R2 0.293333 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 20 true true
+R3 4.10667 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 20 true true
+R4 6.4 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 20 true true
+E1 -1 -0.25 glucose exchange -1 1000 glucose[c]<==> 25 true true
+E2 0 1.6 lactate exchange 0 1000 lactate[c]--> 25 false true
+E3 -6 -1.2 O2 exchange -1000 1000 O2[c]<==> 25 true true
+E4 1.2 6 H20 exchange -1000 1000 H20[c]<==> 25 true true
+E5 1.2 6 CO2 exchange -1000 1000 CO2[c]<==> 25 true true
+R1 0.25 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 25 true true
+R2 0.4 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 25 true true
+R3 5.6 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 25 true true
+R4 8 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 25 true true
+E1 -1 -0.3 glucose exchange -1 1000 glucose[c]<==> 30 true true
+E2 0 1.49333 lactate exchange 0 1000 lactate[c]--> 30 false true
+E3 -6 -1.52 O2 exchange -1000 1000 O2[c]<==> 30 true true
+E4 1.52 6 H20 exchange -1000 1000 H20[c]<==> 30 true true
+E5 1.52 6 CO2 exchange -1000 1000 CO2[c]<==> 30 true true
+R1 0.3 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 30 true true
+R2 0.506667 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 30 true true
+R3 7.09333 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 30 true true
+R4 9.6 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 30 true true
+E1 -1 -0.35 glucose exchange -1 1000 glucose[c]<==> 35 true true
+E2 0 1.38667 lactate exchange 0 1000 lactate[c]--> 35 false true
+E3 -6 -1.84 O2 exchange -1000 1000 O2[c]<==> 35 true true
+E4 1.84 6 H20 exchange -1000 1000 H20[c]<==> 35 true true
+E5 1.84 6 CO2 exchange -1000 1000 CO2[c]<==> 35 true true
+R1 0.35 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 35 true true
+R2 0.613333 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 35 true true
+R3 8.58667 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 35 true true
+R4 11.2 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 35 true true
+E1 -1 -0.4 glucose exchange -1 1000 glucose[c]<==> 40 true true
+E2 0 1.28 lactate exchange 0 1000 lactate[c]--> 40 false true
+E3 -6 -2.16 O2 exchange -1000 1000 O2[c]<==> 40 true true
+E4 2.16 6 H20 exchange -1000 1000 H20[c]<==> 40 true true
+E5 2.16 6 CO2 exchange -1000 1000 CO2[c]<==> 40 true true
+R1 0.4 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 40 true true
+R2 0.72 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 40 true true
+R3 10.08 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 40 true true
+R4 12.8 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 40 true true
+E1 -1 -0.45 glucose exchange -1 1000 glucose[c]<==> 45 true true
+E2 0 1.17333 lactate exchange 0 1000 lactate[c]--> 45 false true
+E3 -6 -2.48 O2 exchange -1000 1000 O2[c]<==> 45 true true
+E4 2.48 6 H20 exchange -1000 1000 H20[c]<==> 45 true true
+E5 2.48 6 CO2 exchange -1000 1000 CO2[c]<==> 45 true true
+R1 0.45 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 45 true true
+R2 0.826667 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 45 true true
+R3 11.5733 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 45 true true
+R4 14.4 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 45 true true
+E1 -1 -0.5 glucose exchange -1 1000 glucose[c]<==> 50 true true
+E2 0 1.06667 lactate exchange 0 1000 lactate[c]--> 50 false true
+E3 -6 -2.8 O2 exchange -1000 1000 O2[c]<==> 50 true true
+E4 2.8 6 H20 exchange -1000 1000 H20[c]<==> 50 true true
+E5 2.8 6 CO2 exchange -1000 1000 CO2[c]<==> 50 true true
+R1 0.5 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 50 true true
+R2 0.933333 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 50 true true
+R3 13.0667 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 50 true true
+R4 16 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 50 true true
+E1 -1 -0.55 glucose exchange -1 1000 glucose[c]<==> 55 true true
+E2 0 0.96 lactate exchange 0 1000 lactate[c]--> 55 false true
+E3 -6 -3.12 O2 exchange -1000 1000 O2[c]<==> 55 true true
+E4 3.12 6 H20 exchange -1000 1000 H20[c]<==> 55 true true
+E5 3.12 6 CO2 exchange -1000 1000 CO2[c]<==> 55 true true
+R1 0.55 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 55 true true
+R2 1.04 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 55 true true
+R3 14.56 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 55 true true
+R4 17.6 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 55 true true
+E1 -1 -0.6 glucose exchange -1 1000 glucose[c]<==> 60 true true
+E2 0 0.853333 lactate exchange 0 1000 lactate[c]--> 60 false true
+E3 -6 -3.44 O2 exchange -1000 1000 O2[c]<==> 60 true true
+E4 3.44 6 H20 exchange -1000 1000 H20[c]<==> 60 true true
+E5 3.44 6 CO2 exchange -1000 1000 CO2[c]<==> 60 true true
+R1 0.6 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 60 true true
+R2 1.14667 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 60 true true
+R3 16.0533 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 60 true true
+R4 19.2 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 60 true true
+E1 -1 -0.65 glucose exchange -1 1000 glucose[c]<==> 65 true true
+E2 0 0.746667 lactate exchange 0 1000 lactate[c]--> 65 false true
+E3 -6 -3.76 O2 exchange -1000 1000 O2[c]<==> 65 true true
+E4 3.76 6 H20 exchange -1000 1000 H20[c]<==> 65 true true
+E5 3.76 6 CO2 exchange -1000 1000 CO2[c]<==> 65 true true
+R1 0.65 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 65 true true
+R2 1.25333 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 65 true true
+R3 17.5467 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 65 true true
+R4 20.8 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 65 true true
+E1 -1 -0.7 glucose exchange -1 1000 glucose[c]<==> 70 true true
+E2 0 0.64 lactate exchange 0 1000 lactate[c]--> 70 false true
+E3 -6 -4.08 O2 exchange -1000 1000 O2[c]<==> 70 true true
+E4 4.08 6 H20 exchange -1000 1000 H20[c]<==> 70 true true
+E5 4.08 6 CO2 exchange -1000 1000 CO2[c]<==> 70 true true
+R1 0.7 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 70 true true
+R2 1.36 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 70 true true
+R3 19.04 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 70 true true
+R4 22.4 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 70 true true
+E1 -1 -0.75 glucose exchange -1 1000 glucose[c]<==> 75 true true
+E2 0 0.533333 lactate exchange 0 1000 lactate[c]--> 75 false true
+E3 -6 -4.4 O2 exchange -1000 1000 O2[c]<==> 75 true true
+E4 4.4 6 H20 exchange -1000 1000 H20[c]<==> 75 true true
+E5 4.4 6 CO2 exchange -1000 1000 CO2[c]<==> 75 true true
+R1 0.75 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 75 true true
+R2 1.46667 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 75 true true
+R3 20.5333 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 75 true true
+R4 24 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 75 true true
+E1 -1 -0.8 glucose exchange -1 1000 glucose[c]<==> 80 true true
+E2 0 0.426667 lactate exchange 0 1000 lactate[c]--> 80 false true
+E3 -6 -4.72 O2 exchange -1000 1000 O2[c]<==> 80 true true
+E4 4.72 6 H20 exchange -1000 1000 H20[c]<==> 80 true true
+E5 4.72 6 CO2 exchange -1000 1000 CO2[c]<==> 80 true true
+R1 0.8 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 80 true true
+R2 1.57333 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 80 true true
+R3 22.0267 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 80 true true
+R4 25.6 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 80 true true
+E1 -1 -0.85 glucose exchange -1 1000 glucose[c]<==> 85 true true
+E2 0 0.32 lactate exchange 0 1000 lactate[c]--> 85 false true
+E3 -6 -5.04 O2 exchange -1000 1000 O2[c]<==> 85 true true
+E4 5.04 6 H20 exchange -1000 1000 H20[c]<==> 85 true true
+E5 5.04 6 CO2 exchange -1000 1000 CO2[c]<==> 85 true true
+R1 0.85 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 85 true true
+R2 1.68 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 85 true true
+R3 23.52 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 85 true true
+R4 27.2 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 85 true true
+E1 -1 -0.9 glucose exchange -1 1000 glucose[c]<==> 90 true true
+E2 0 0.213333 lactate exchange 0 1000 lactate[c]--> 90 false true
+E3 -6 -5.36 O2 exchange -1000 1000 O2[c]<==> 90 true true
+E4 5.36 6 H20 exchange -1000 1000 H20[c]<==> 90 true true
+E5 5.36 6 CO2 exchange -1000 1000 CO2[c]<==> 90 true true
+R1 0.9 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 90 true true
+R2 1.78667 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 90 true true
+R3 25.0133 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 90 true true
+R4 28.8 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 90 true true
+E1 -1 -0.95 glucose exchange -1 1000 glucose[c]<==> 95 true true
+E2 0 0.106667 lactate exchange 0 1000 lactate[c]--> 95 false true
+E3 -6 -5.68 O2 exchange -1000 1000 O2[c]<==> 95 true true
+E4 5.68 6 H20 exchange -1000 1000 H20[c]<==> 95 true true
+E5 5.68 6 CO2 exchange -1000 1000 CO2[c]<==> 95 true true
+R1 0.95 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 95 true true
+R2 1.89333 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 95 true true
+R3 26.5067 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 95 true true
+R4 30.4 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 95 true true
+E1 -1 -1 glucose exchange -1 1000 glucose[c]<==> 100 true true
+E2 0 0 lactate exchange 0 1000 lactate[c]--> 100 false false
+E3 -6 -6 O2 exchange -1000 1000 O2[c]<==> 100 true true
+E4 6 6 H20 exchange -1000 1000 H20[c]<==> 100 true true
+E5 6 6 CO2 exchange -1000 1000 CO2[c]<==> 100 true true
+R1 1 1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c] 100 true true
+R2 2 2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c] 100 true true
+R3 28 28 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m] 100 true true
+R4 32 32 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c] 100 true true

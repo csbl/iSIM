@@ -1,0 +1,37 @@
+genes rxn1 rxn2 name1 name2 rxns names
+ATPV_AQP R3 E4 ATP synthase H20 exchange R3_E4 ATP synthase /H20 exchange
+CO2_AQP E5 E4 CO2 exchange H20 exchange E5_E4 CO2 exchange /H20 exchange
+CO2_ATPV E5 R3 CO2 exchange ATP synthase E5_R3 CO2 exchange /ATP synthase
+ETC_AQP E3 E4 O2 exchange H20 exchange E3_E4 O2 exchange /H20 exchange
+ETC_ATPV E3 R3 O2 exchange ATP synthase E3_R3 O2 exchange /ATP synthase
+ETC_CO2 E3 E5 O2 exchange CO2 exchange E3_E5 O2 exchange /CO2 exchange
+HK_AQP E1 E4 glucose exchange H20 exchange E1_E4 glucose exchange /H20 exchange
+HK_ATPV E1 R3 glucose exchange ATP synthase E1_R3 glucose exchange /ATP synthase
+HK_CO2 E1 E5 glucose exchange CO2 exchange E1_E5 glucose exchange /CO2 exchange
+HK_ETC E1 E3 glucose exchange O2 exchange E1_E3 glucose exchange /O2 exchange
+LDH_AQP E2 E4 lactate exchange H20 exchange E2_E4 lactate exchange /H20 exchange
+LDH_ATPV E2 R3 lactate exchange ATP synthase E2_R3 lactate exchange /ATP synthase
+LDH_CO2 E2 E5 lactate exchange CO2 exchange E2_E5 lactate exchange /CO2 exchange
+LDH_ETC E2 E3 lactate exchange O2 exchange E2_E3 lactate exchange /O2 exchange
+LDH_HK E2 E1 lactate exchange glucose exchange E2_E1 lactate exchange /glucose exchange
+MYH2_AQP R4 E4 ATP demand H20 exchange R4_E4 ATP demand /H20 exchange
+MYH2_ATPV R4 R3 ATP demand ATP synthase R4_R3 ATP demand /ATP synthase
+MYH2_CO2 R4 E5 ATP demand CO2 exchange R4_E5 ATP demand /CO2 exchange
+MYH2_ETC R4 E3 ATP demand O2 exchange R4_E3 ATP demand /O2 exchange
+MYH2_HK R4 E1 ATP demand glucose exchange R4_E1 ATP demand /glucose exchange
+MYH2_LDH R4 E2 ATP demand lactate exchange R4_E2 ATP demand /lactate exchange
+PDH_AQP R2 E4 respiration H20 exchange R2_E4 respiration /H20 exchange
+PDH_ATPV R2 R3 respiration ATP synthase R2_R3 respiration /ATP synthase
+PDH_CO2 R2 E5 respiration CO2 exchange R2_E5 respiration /CO2 exchange
+PDH_ETC R2 E3 respiration O2 exchange R2_E3 respiration /O2 exchange
+PDH_HK R2 E1 respiration glucose exchange R2_E1 respiration /glucose exchange
+PDH_LDH R2 E2 respiration lactate exchange R2_E2 respiration /lactate exchange
+PDH_MYH2 R2 R4 respiration ATP demand R2_R4 respiration /ATP demand
+PFK_AQP R1 E4 glycolysis H20 exchange R1_E4 glycolysis /H20 exchange
+PFK_ATPV R1 R3 glycolysis ATP synthase R1_R3 glycolysis /ATP synthase
+PFK_CO2 R1 E5 glycolysis CO2 exchange R1_E5 glycolysis /CO2 exchange
+PFK_ETC R1 E3 glycolysis O2 exchange R1_E3 glycolysis /O2 exchange
+PFK_HK R1 E1 glycolysis glucose exchange R1_E1 glycolysis /glucose exchange
+PFK_LDH R1 E2 glycolysis lactate exchange R1_E2 glycolysis /lactate exchange
+PFK_MYH2 R1 R4 glycolysis ATP demand R1_R4 glycolysis /ATP demand
+PFK_PDH R1 R2 glycolysis respiration R1_R2 glycolysis /respiration

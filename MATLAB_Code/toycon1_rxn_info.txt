@@ -1,0 +1,9 @@
+E1 glucose exchange -1 1000 glucose[c]<==>
+E2 lactate exchange 0 1000 lactate[c]-->
+E3 O2 exchange -1000 1000 O2[c]<==>
+E4 H20 exchange -1000 1000 H20[c]<==>
+E5 CO2 exchange -1000 1000 CO2[c]<==>
+R1 glycolysis 0 1000 2Pi[c] +2ADP[c] +glucose[c]-->2lactate[c] +2H20[c] +2ATP[c]
+R2 respiration 0 1000 56H[m] +Pi[c] +ADP[c] +3O2[c] +lactate[c]-->4H20[c] +3CO2[c] +ATP[c] +56H[c]
+R3 ATP synthase 0 1000 4H[c] +Pi[c] +ADP[c]-->H20[c] +ATP[c] +4H[m]
+R4 ATP demand 0 1000 ATP[c] +H20[c]-->ADP[c] +Pi[c]
