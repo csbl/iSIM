@@ -1,0 +1,190 @@
+rxn_id fva_lb fva_ub rxn_name lb ub rxn_formula fva_pct fva_req fva_on
+E1 -1.00 0.00 glucose  exchange -1.00 1000.00 glucose  <=>   0 False True
+E1 -1.00 -0.20 glucose  exchange -1.00 1000.00 glucose  <=>   20 True True
+E1 -1.00 -0.80 glucose  exchange -1.00 1000.00 glucose  <=>   80 True True
+E1 -1.00 -0.15 glucose  exchange -1.00 1000.00 glucose  <=>   15 True True
+E1 -1.00 -0.90 glucose  exchange -1.00 1000.00 glucose  <=>   90 True True
+E1 -1.00 -0.25 glucose  exchange -1.00 1000.00 glucose  <=>   25 True True
+E1 -1.00 -0.75 glucose  exchange -1.00 1000.00 glucose  <=>   75 True True
+E1 -1.00 -0.30 glucose  exchange -1.00 1000.00 glucose  <=>   30 True True
+E1 -1.00 -0.70 glucose  exchange -1.00 1000.00 glucose  <=>   70 True True
+E1 -1.00 -0.10 glucose  exchange -1.00 1000.00 glucose  <=>   10 True True
+E1 -1.00 -0.95 glucose  exchange -1.00 1000.00 glucose  <=>   95 True True
+E1 -1.00 -0.85 glucose  exchange -1.00 1000.00 glucose  <=>   85 True True
+E1 -1.00 -0.65 glucose  exchange -1.00 1000.00 glucose  <=>   65 True True
+E1 -1.00 -0.35 glucose  exchange -1.00 1000.00 glucose  <=>   35 True True
+E1 -1.00 -0.45 glucose  exchange -1.00 1000.00 glucose  <=>   45 True True
+E1 -1.00 -0.05 glucose  exchange -1.00 1000.00 glucose  <=>   5 True True
+E1 -1.00 -1.00 glucose  exchange -1.00 1000.00 glucose  <=>   100 True True
+E1 -1.00 -0.50 glucose  exchange -1.00 1000.00 glucose  <=>   50 True True
+E1 -1.00 -0.55 glucose  exchange -1.00 1000.00 glucose  <=>   55 True True
+E1 -1.00 -0.60 glucose  exchange -1.00 1000.00 glucose  <=>   60 True True
+E1 -1.00 -0.40 glucose  exchange -1.00 1000.00 glucose  <=>   40 True True
+E2 0.00 1.07 lactate  exchange 0.00 1000.00 lactate  ==>   50 False True
+E2 0.00 1.71 lactate  exchange 0.00 1000.00 lactate  ==>   20 False True
+E2 0.00 0.43 lactate  exchange 0.00 1000.00 lactate  ==>   80 False True
+E2 0.00 0.96 lactate  exchange 0.00 1000.00 lactate  ==>   55 False True
+E2 0.00 0.75 lactate  exchange 0.00 1000.00 lactate  ==>   65 False True
+E2 0.00 0.53 lactate  exchange 0.00 1000.00 lactate  ==>   75 False True
+E2 0.00 1.49 lactate  exchange 0.00 1000.00 lactate  ==>   30 False True
+E2 0.00 0.64 lactate  exchange 0.00 1000.00 lactate  ==>   70 False True
+E2 0.00 0.85 lactate  exchange 0.00 1000.00 lactate  ==>   60 False True
+E2 0.00 1.28 lactate  exchange 0.00 1000.00 lactate  ==>   40 False True
+E2 0.00 1.39 lactate  exchange 0.00 1000.00 lactate  ==>   35 False True
+E2 0.00 1.17 lactate  exchange 0.00 1000.00 lactate  ==>   45 False True
+E2 0.00 0.32 lactate  exchange 0.00 1000.00 lactate  ==>   85 False True
+E2 0.00 1.60 lactate  exchange 0.00 1000.00 lactate  ==>   25 False True
+E2 0.00 2.00 lactate  exchange 0.00 1000.00 lactate  ==>   0 False True
+E2 0.00 2.00 lactate  exchange 0.00 1000.00 lactate  ==>   5 False True
+E2 0.00 0.11 lactate  exchange 0.00 1000.00 lactate  ==>   95 False True
+E2 0.00 1.92 lactate  exchange 0.00 1000.00 lactate  ==>   10 False True
+E2 0.00 0.00 lactate  exchange 0.00 1000.00 lactate  ==>   100 False False
+E2 0.00 1.81 lactate  exchange 0.00 1000.00 lactate  ==>   15 False True
+E2 0.00 0.21 lactate  exchange 0.00 1000.00 lactate  ==>   90 False True
+E3 -6.00 -5.68 O2  exchange -1000.00 1000.00 02  <=>   95 True True
+E3 -6.00 -1.52 O2  exchange -1000.00 1000.00 02  <=>   30 True True
+E3 -6.00 -3.44 O2  exchange -1000.00 1000.00 02  <=>   60 True True
+E3 -6.00 -4.08 O2  exchange -1000.00 1000.00 02  <=>   70 True True
+E3 -6.00 -0.24 O2  exchange -1000.00 1000.00 02  <=>   10 True True
+E3 -6.00 -1.84 O2  exchange -1000.00 1000.00 02  <=>   35 True True
+E3 -6.00 -2.16 O2  exchange -1000.00 1000.00 02  <=>   40 True True
+E3 -6.00 0.00 O2  exchange -1000.00 1000.00 02  <=>   5 False True
+E3 -6.00 -5.04 O2  exchange -1000.00 1000.00 02  <=>   85 True True
+E3 -6.00 -6.00 O2  exchange -1000.00 1000.00 02  <=>   100 True True
+E3 -6.00 -5.36 O2  exchange -1000.00 1000.00 02  <=>   90 True True
+E3 -6.00 -4.40 O2  exchange -1000.00 1000.00 02  <=>   75 True True
+E3 -6.00 0.00 O2  exchange -1000.00 1000.00 02  <=>   0 False True
+E3 -6.00 -0.88 O2  exchange -1000.00 1000.00 02  <=>   20 True True
+E3 -6.00 -3.12 O2  exchange -1000.00 1000.00 02  <=>   55 True True
+E3 -6.00 -4.72 O2  exchange -1000.00 1000.00 02  <=>   80 True True
+E3 -6.00 -2.80 O2  exchange -1000.00 1000.00 02  <=>   50 True True
+E3 -6.00 -0.56 O2  exchange -1000.00 1000.00 02  <=>   15 True True
+E3 -6.00 -1.20 O2  exchange -1000.00 1000.00 02  <=>   25 True True
+E3 -6.00 -2.48 O2  exchange -1000.00 1000.00 02  <=>   45 True True
+E3 -6.00 -3.76 O2  exchange -1000.00 1000.00 02  <=>   65 True True
+E4 3.44 6.00 H20  exchange -1000.00 1000.00 H20  <=>   60 True True
+E4 0.00 6.00 H20  exchange -1000.00 1000.00 H20  <=>   5 False True
+E4 3.12 6.00 H20  exchange -1000.00 1000.00 H20  <=>   55 True True
+E4 2.48 6.00 H20  exchange -1000.00 1000.00 H20  <=>   45 True True
+E4 0.00 6.00 H20  exchange -1000.00 1000.00 H20  <=>   0 False True
+E4 6.00 6.00 H20  exchange -1000.00 1000.00 H20  <=>   100 True True
+E4 2.16 6.00 H20  exchange -1000.00 1000.00 H20  <=>   40 True True
+E4 5.04 6.00 H20  exchange -1000.00 1000.00 H20  <=>   85 True True
+E4 4.40 6.00 H20  exchange -1000.00 1000.00 H20  <=>   75 True True
+E4 0.56 6.00 H20  exchange -1000.00 1000.00 H20  <=>   15 True True
+E4 0.88 6.00 H20  exchange -1000.00 1000.00 H20  <=>   20 True True
+E4 4.72 6.00 H20  exchange -1000.00 1000.00 H20  <=>   80 True True
+E4 1.20 6.00 H20  exchange -1000.00 1000.00 H20  <=>   25 True True
+E4 5.68 6.00 H20  exchange -1000.00 1000.00 H20  <=>   95 True True
+E4 5.36 6.00 H20  exchange -1000.00 1000.00 H20  <=>   90 True True
+E4 0.24 6.00 H20  exchange -1000.00 1000.00 H20  <=>   10 True True
+E4 2.80 6.00 H20  exchange -1000.00 1000.00 H20  <=>   50 True True
+E4 4.08 6.00 H20  exchange -1000.00 1000.00 H20  <=>   70 True True
+E4 1.84 6.00 H20  exchange -1000.00 1000.00 H20  <=>   35 True True
+E4 3.76 6.00 H20  exchange -1000.00 1000.00 H20  <=>   65 True True
+E4 1.52 6.00 H20  exchange -1000.00 1000.00 H20  <=>   30 True True
+E5 5.36 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   90 True True
+E5 4.08 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   70 True True
+E5 3.44 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   60 True True
+E5 4.40 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   75 True True
+E5 3.12 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   55 True True
+E5 4.72 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   80 True True
+E5 6.00 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   100 True True
+E5 3.76 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   65 True True
+E5 5.04 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   85 True True
+E5 5.68 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   95 True True
+E5 2.80 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   50 True True
+E5 0.88 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   20 True True
+E5 2.16 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   40 True True
+E5 0.56 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   15 True True
+E5 1.84 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   35 True True
+E5 0.00 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   5 False True
+E5 2.48 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   45 True True
+E5 0.24 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   10 True True
+E5 1.52 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   30 True True
+E5 0.00 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   0 False True
+E5 1.20 6.00 CO2  exchange -1000.00 1000.00 CO2  <=>   25 True True
+R1 0.20 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 20 True True
+R1 0.85 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 85 True True
+R1 0.80 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 80 True True
+R1 0.70 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 70 True True
+R1 0.15 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 15 True True
+R1 0.65 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 65 True True
+R1 0.35 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 35 True True
+R1 0.75 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 75 True True
+R1 0.30 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 30 True True
+R1 0.50 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 50 True True
+R1 0.10 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 10 True True
+R1 0.95 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 95 True True
+R1 0.60 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 60 True True
+R1 0.40 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 40 True True
+R1 0.90 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 90 True True
+R1 1.00 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 100 True True
+R1 0.05 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 5 True True
+R1 0.00 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 0 False True
+R1 0.25 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 25 True True
+R1 0.55 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 55 True True
+R1 0.45 1.00 glycolysis 0.00 1000.00 2  ADP  +  glucose  +  2  Pi  ==>  2  ATP  +  2  H20  +  2  lactate 45 True True
+R2 2.00 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 100 True True
+R2 0.29 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 20 True True
+R2 0.00 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 0 False True
+R2 0.08 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 10 True True
+R2 1.57 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 80 True True
+R2 0.19 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 15 True True
+R2 0.00 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 5 False True
+R2 1.79 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 90 True True
+R2 1.68 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 85 True True
+R2 1.89 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 95 True True
+R2 0.40 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 25 True True
+R2 1.47 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 75 True True
+R2 1.36 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 70 True True
+R2 0.83 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 45 True True
+R2 1.04 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 55 True True
+R2 0.51 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 30 True True
+R2 0.61 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 35 True True
+R2 1.15 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 60 True True
+R2 1.25 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 65 True True
+R2 0.93 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 50 True True
+R2 0.72 2.00 respiration 0.00 1000.00 ADP  +  56  H  +  lactate  +  3  02  +  Pi  ==>  ATP  +  3  CO2  +  56  H  +  4  H20 40 True True
+R3 16.05 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 60 True True
+R3 10.08 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 40 True True
+R3 25.01 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 90 True True
+R3 14.56 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 55 True True
+R3 5.60 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 25 True True
+R3 26.51 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 95 True True
+R3 23.52 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 85 True True
+R3 8.59 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 35 True True
+R3 1.12 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 10 True True
+R3 17.55 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 65 True True
+R3 2.61 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 15 True True
+R3 0.00 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 0 False True
+R3 22.03 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 80 True True
+R3 11.57 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 45 True True
+R3 7.09 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 30 True True
+R3 4.11 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 20 True True
+R3 13.07 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 50 True True
+R3 20.53 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 75 True True
+R3 28.00 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 100 True True
+R3 19.04 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 70 True True
+R3 0.00 28.00 ATP  synthase 0.00 1000.00 ADP  +  4  H  +  Pi  ==>  ATP  +  4  H  +  H20 5 False True
+R4 0.00 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 0 False True
+R4 30.40 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 95 True True
+R4 14.40 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 45 True True
+R4 16.00 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 50 True True
+R4 17.60 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 55 True True
+R4 8.00 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 25 True True
+R4 1.60 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 5 True True
+R4 28.80 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 90 True True
+R4 19.20 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 60 True True
+R4 3.20 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 10 True True
+R4 27.20 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 85 True True
+R4 11.20 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 35 True True
+R4 4.80 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 15 True True
+R4 25.60 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 80 True True
+R4 20.80 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 65 True True
+R4 9.60 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 30 True True
+R4 6.40 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 20 True True
+R4 24.00 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 75 True True
+R4 22.40 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 70 True True
+R4 12.80 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 40 True True
+R4 32.00 32.00 ATP  demand 0.00 1000.00 ATP  +  H20  ==>  ADP  +  Pi 100 True True
