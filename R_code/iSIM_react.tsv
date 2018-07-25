@@ -1,0 +1,10 @@
+abbreviation	name	equation	reversible	lowbnd	uppbnd	obj_coef	rule	subsystem
+E1	E1	glucose exchange	m04c <==>	TRUE	-1	1000	0	GLUT	exchange
+E2	E2	lactate exchange	m07c -->	FALSE	0	1000	0	LDH	exchange
+E3	E3	O2 exchange	m08c <==>	TRUE	-1000	1000	0	ETC	exchange
+E4	E4	H2O exchange	m06c <==>	TRUE	-1000	1000	0	AQP	exchange
+E5	E5	CO2 exchange	m03c <==>	TRUE	-1000	1000	0	CO2	exchange
+R1	R1	glycolysis	(2) m01c + (2) m09c + m04c --> (2) m06c + (2) m02c + (2) m07c	FALSE	0	1000	0	PFK	energy homeostasis
+R2	R2	TCA + ETC	m07c + (3) m08c + m01c + m09c + (56) m05m --> (4) m06c + (3) m03c + m02c + (56) m05c	FALSE	0	1000	0	CS	energy homeostasis
+R3	R3	ATP synthase	m01c + m09c + (4) m05c --> m06c + m02c + (4) m05m	FALSE	0	1000	0	ATPV	energy homeostasis
+R4	R4	ATP demand	m06c + m02c --> m01c + m09c	FALSE	0	1000	1	MYH2	energy homeostasis
