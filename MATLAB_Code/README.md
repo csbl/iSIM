@@ -1,2 +1,2 @@
-# ToyConMAT
-MATLAB implementation of the toycon1 metabolic model.
+# iSIM_MAT
+MATLAB implementation of the iSIM metabolic model.
