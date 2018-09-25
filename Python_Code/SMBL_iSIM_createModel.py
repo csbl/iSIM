@@ -104,6 +104,6 @@ for x in iSIMmodel.genes:
 print(iSIMmodel.objective.expression)
 print(iSIMmodel.objective.direction)
 
-#save as a SBML model in a .xml file
+#save as a SBML model in a .xml file and as a json model in a .json file
 cobra.io.write_sbml_model(iSIMmodel,'iSIM.xml')
-
+cobra.io.save_json_model(iSIMmodel,'iSIM.json')
