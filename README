@@ -1,4 +1,4 @@
-# R code for model building and analysis
+# I. R code for model building and analysis
 The model is included in the files labeled iSIM_desc.tsv, iSIM_met.tsv, and iSIM_react.tsv files. The main_script.R script runs the analyses and produces the figures presented in the manuscript. 
 
 # II.	MATLAB code for model building and analysis
