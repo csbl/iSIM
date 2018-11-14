@@ -1,6 +1,5 @@
-from cobra import Model, Reaction, Metabolite
 import cobra
-
+from cobra import Model, Reaction, Metabolite
 
 #Create Model
 iSIMmodel = Model('iSIM')
