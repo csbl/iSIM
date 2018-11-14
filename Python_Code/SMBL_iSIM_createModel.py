@@ -35,44 +35,44 @@ iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 reaction = Reaction('E2','lactate exchange',lower_bound=0,upper_bound=1000) #create reaction object with reaction ID, name, and bounds
 reaction.add_metabolites({lct:-1}) #add metabolites with coefficients
 reaction.gene_reaction_rule = '( LDH )' #associate genes
-iSIMmodel.add_reactions(reaction) #add reaction to model
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 
 ##repeated for the rest of the reactions in the model
 reaction = Reaction('E3','O2 exchange',lower_bound=-1000,upper_bound=1000)
 reaction.add_metabolites({O2:-1})
 reaction.gene_reaction_rule = '( ETC )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('E4','H20 exchange',lower_bound=-1000,upper_bound=1000)
 reaction.add_metabolites({h20:-1})
 reaction.gene_reaction_rule = '( AQP )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('E5','CO2 exchange',lower_bound=-1000,upper_bound=1000)
 reaction.add_metabolites({CO2:-1})
 reaction.gene_reaction_rule = '( CO2 )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('R1','glycolysis',lower_bound=0,upper_bound=1000)
 reaction.add_metabolites({glc:-1,lct:2,h20:2,adp:-2,pi:-2,atp:2})
 reaction.gene_reaction_rule = '( PFK )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('R2','respiration',lower_bound=0,upper_bound=1000)
 reaction.add_metabolites({lct:-1,O2:-3,h20:4,CO2:3,adp:-1,pi:-1,atp:1,Hm:-56,Hc:56})
 reaction.gene_reaction_rule = '( PDH )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('R3','ATP synthase',lower_bound=0,upper_bound=1000)
 reaction.add_metabolites({h20:1,adp:-1,pi:-1,atp:1,Hm:4,Hc:-4})
 reaction.gene_reaction_rule = '( ATPV )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('R4','ATP demand',lower_bound=0,upper_bound=1000)
 reaction.add_metabolites({h20:-1,adp:1,pi:1,atp:-1})
 reaction.gene_reaction_rule = '( MYH2 )'
-iSIMmodel.add_reactions(reaction)
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 #set the objective reaction to maximize flux through.
 iSIMmodel.objective = 'R4'
