@@ -1,5 +1,5 @@
 from cobra import Model, Reaction, Metabolite
-import cobra.solvers.gurobi_solver
+import cobra
 
 
 #Create Model
@@ -30,7 +30,7 @@ reaction.add_metabolites({   #add the glucose metabolite to the reaction with st
 
 reaction.gene_reaction_rule = '( HK )' #associate a gene with the reaction
 
-iSIMmodel.add_reactions(reaction) #add the reaction to the model
+iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 #Short hand way to add reaction
 reaction = Reaction('E2','lactate exchange',lower_bound=0,upper_bound=1000) #create reaction object with reaction ID, name, and bounds
