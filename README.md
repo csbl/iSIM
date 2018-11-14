@@ -15,4 +15,4 @@ Information for installing and running basic functions with the COBRApy package1
 
 The SMBL_iSIM_createModel.py script generates a metabolic model and saves it as an .xml file later use. You must run this script first to generate the model, which is then loaded and analyzed using the following script. The FigureCreationScript.py contains the code to run the analyses and reproduce the figures produced in the manuscript. 
 
-Versions: ?
+Versions: Python 3.6.7, gurobi 8.1.0
