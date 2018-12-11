@@ -1,3 +1,4 @@
+import gurobipy
 import cobra
 from cobra import Model, Reaction, Metabolite
 
