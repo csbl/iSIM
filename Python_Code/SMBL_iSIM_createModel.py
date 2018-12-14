@@ -28,7 +28,7 @@ reaction.add_metabolites({   #add the glucose metabolite to the reaction with st
 })
 
 
-reaction.gene_reaction_rule = '( HK )' #associate a gene with the reaction
+reaction.gene_reaction_rule = '( GLUT )' #associate a gene with the reaction
 
 iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
@@ -60,9 +60,9 @@ reaction.add_metabolites({glc:-1,lct:2,h20:2,adp:-2,pi:-2,atp:2})
 reaction.gene_reaction_rule = '( PFK )'
 iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
-reaction = Reaction('R2','respiration',lower_bound=0,upper_bound=1000)
+reaction = Reaction('R2','TCA + ETC',lower_bound=0,upper_bound=1000)
 reaction.add_metabolites({lct:-1,O2:-3,h20:4,CO2:3,adp:-1,pi:-1,atp:1,Hm:-56,Hc:56})
-reaction.gene_reaction_rule = '( PDH )'
+reaction.gene_reaction_rule = '( CS )'
 iSIMmodel.add_reactions({reaction}) #add the reaction to the model
 
 reaction = Reaction('R3','ATP synthase',lower_bound=0,upper_bound=1000)
