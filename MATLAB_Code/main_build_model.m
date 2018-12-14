@@ -25,7 +25,7 @@ reactionIDs = {'E1','E2','E3','E4','E5','R1','R2','R3','R4'};
 %define reversibility
 rev = [1,0,1,1,1,0,0,0,0];
 %Define reaction names
-reactionNames = {'glucose exchange','lactate exchange','O2 exchange','H20 exchange','CO2 exchange','glycolysis','respiration','ATP synthase','ATP demand'};
+reactionNames = {'glucose exchange','lactate exchange','O2 exchange','H20 exchange','CO2 exchange','glycolysis','TCA + ETC','ATP synthase','ATP demand'};
 %Gather formulas
 reactionForm = {E1,E2,E3,E4,E5,R1,R2,R3,R4};
 %Define lower reaction flux bounds
@@ -33,9 +33,9 @@ lb = double([-1,0,-1000,-1000,-1000,0,0,0,0]);
 %Define upper reaction flux bounds
 ub = double([1000,1000,1000,1000,1000,1000,1000,1000,1000]);
 %Define gene reaction rules for the above reactions
-grRule = {'HK','LDH','ETC','AQP','CO2','PFK','PDH','ATPV','MYH2'}';
+grRule = {'GLUT','LDH','ETC','AQP','CO2','PFK','CS','ATPV','MYH2'}';
 %gather gene names
-geneNames = {'HK','LDH','ETC','AQP','CO2','PFK','PDH','ATPV','MYH2'}';
+geneNames = {'GLUT','LDH','ETC','AQP','CO2','PFK','CS','ATPV','MYH2'}';
 %create model with above arguments
 model = createModel(reactionIDs,reactionNames,reactionForm);
 model.lb = lb';
